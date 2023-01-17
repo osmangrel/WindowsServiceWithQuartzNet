@@ -5,6 +5,8 @@ First job : It will be triggered every 5 seconds.
 
 Second job : It will be triggered every 10 seconds.
 
+Install-Package Quartz Version=2.6.2
+
 ## How to create windows service step by step
 
 SC Create "ServiceName" binpath="Exe Path"
