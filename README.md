@@ -7,7 +7,7 @@ Second job : It will be triggered every 10 seconds.
 
 Install-Package Quartz Version=2.6.2
 
-## How to create windows service step by step
+## How to create windows service
 
 SC Create "ServiceName" binpath="Exe Path"
 
@@ -15,7 +15,7 @@ SC Create "ServiceName" binpath="Exe Path"
 
 > SC CREATE "CronJob" binpath="C:\Users\${Username}\repos\DenemeService\DenemeService\bin\Debug\DenemeService.exe"
 
-## How to delete windows service step by step
+## How to delete windows service
 
 SC DELETE "ServiceName"
 
